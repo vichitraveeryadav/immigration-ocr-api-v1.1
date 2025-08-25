@@ -262,7 +262,7 @@ fetch('{app_url}', {{
     st.markdown("**Immigration Document OCR API** • **Ready for Website Integration** • **English + Hindi Support**")
 
 # Check for API query
-query_params = st.experimental_get_query_params()
+query_params = st.query_params
 if "api" in query_params:
     st.json({
         "message": "Immigration Document OCR API",
