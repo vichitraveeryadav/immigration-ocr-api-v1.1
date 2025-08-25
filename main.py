@@ -158,13 +158,13 @@ def process_document_function(image_file):
 
 def main():
     st.set_page_config(
-        page_title="Immigration Document OCR API",
+        page_title="Immigration Document OCR",
         page_icon="📄",
         layout="wide"
     )
     
     # Header
-    st.title("🏛️ Immigration Document OCR API")
+    st.title("🏛️ Immigration Document OCR")
     
     # System status with detailed info
     col1, col2 = st.columns(2)
